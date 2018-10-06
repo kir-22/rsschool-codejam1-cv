@@ -41,13 +41,31 @@ main{
 .fullname-firstname{
   color: goldenrod;
 }
+.line{
+  margin: 15px 0;
+  background: red
+}
+.list-social{
+  text-align: center;
+}
 ul li{
+  display: inline-block;
+  margin-right: 55px;
   list-style-type: none;
 }
-.icon-vk{
-  display: block;
+.icon{
+  display: inline-block;
   width:70px;
   height: 70px;
-  background: url("image/social1.png") no-repeat 6% 6%;
   border-radius: 50%; 
+}
+.icon-vk{
+  background: url("image/social1.png") no-repeat 6% 6%;
+}
+.icon-fb{
+  background: url("image/social1.png") no-repeat 28% 6%;
+}
+.icon-google{
+  background: url("image/social1.png") no-repeat 73% 5%;
+  background-size: 700%;
 }
