@@ -48,6 +48,7 @@ nav a:hover{
 main{
   max-width: 1024px;
   margin: 0 auto;
+  min-height: calc(100vh-150px);
 }
 h2, h3{
   text-align: center;
@@ -223,5 +224,12 @@ pre{
 }
 /*end english*/
 /*footer*/
-
+footer{
+  height: 150px;
+  background: linear-gradient( #3f4040, #1f2121); 
+  text-align: center;
+}
+.footer-info{
+  transform: translateY(75px)
+}
 /*end footer*/
