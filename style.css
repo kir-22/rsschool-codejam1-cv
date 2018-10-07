@@ -225,11 +225,20 @@ pre{
 /*end english*/
 /*footer*/
 footer{
+  display: flex;
+  flex-flow: column;
   height: 150px;
-  background: linear-gradient( #3f4040, #1f2121); 
-  text-align: center;
+  background: linear-gradient( #3f4040, #1f2121);
+  padding: 0 20px;
+}
+.footer-block{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  width: 1024px;
+  margin:0 auto;
 }
 .footer-info{
-  transform: translateY(75px)
+  transform: translate(-20px,100px);
 }
 /*end footer*/
