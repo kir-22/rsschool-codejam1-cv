@@ -55,7 +55,7 @@ h2, h3{
 h2{
   margin-bottom: 20px;
   color: #daa520;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 .wrapper{
   display: flex;
@@ -79,8 +79,7 @@ h2{
 }
 .fullname{
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 4.5em;
+  font-size: 3.5em;
 }
 .fullname-firstname{
   color: goldenrod;
@@ -121,10 +120,10 @@ h2{
   align-items: center;
 }
 .summary p{
-  width: 80%;
+  width: 60%;
   text-align: justify;
-  font-family: 'Courier New', Courier, cursive;
-  font-size: xx-large;
+  font-size: 1.2em;
+  word-spacing: 0.01em;
 }
 /*end summary*/
 /*Skills*/
@@ -135,13 +134,12 @@ h2{
 }
 .list-skills{
   display: flex;
-  flex-flow: row;
-  justify-content: space-between;
+  flex-flow: column;
+  align-items: center;
   list-style-type: none;
 }
 .list-skills li{
-  font-family: monospace;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 /*end Skills*/
 /*Example*/
@@ -149,7 +147,7 @@ h2{
   width: 100%;
 }
 .code-name{
-  margin-bottom: 15px;
+  margin: 15px 0;
   color: #5aa520;
 }
 pre{
@@ -165,16 +163,14 @@ pre{
   display: flex;
   flex-flow: column;
   width: 100%;
-  align-items: center;
 }
 .practis-list{
   display: flex;
-  align-items: center;
   flex-flow: column;
   width: 80%;
   list-style-type: decimal;
   list-style-position: inside;
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: 0.1em;
   word-spacing: 0.3em;
   word-spacing: 0.3em;
@@ -185,3 +181,37 @@ pre{
   color: #20da6c;
 }
 /*end Practis*/
+/*Course*/
+.course{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.education-title{
+  display: inline-block;
+  text-transform: uppercase;
+}
+.education-title h4{
+  color: #5aa520;
+  margin: 15px 0;
+}
+.education-content{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.education-years{
+  flex-grow: 1;
+  font-size: 1.1em;
+}
+.education-describe{
+  width: 70%;
+  flex-grow: 1;
+  font-size: 1.1em;
+}
+/*end Course*/
+/*English*/
+
+/*end english*/
