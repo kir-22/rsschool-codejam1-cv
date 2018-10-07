@@ -123,7 +123,7 @@ h2{
 .summary p{
   width: 80%;
   text-align: justify;
-  font-family: cursive;
+  font-family: 'Courier New', Courier, cursive;
   font-size: xx-large;
 }
 /*end summary*/
