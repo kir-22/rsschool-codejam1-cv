@@ -128,7 +128,21 @@ h2{
 }
 /*end summary*/
 /*Skills*/
-
+.skills{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.list-skills{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.list-skills li{
+  font-family: monospace;
+  font-size: 1.5em;
+}
 /*end Skills*/
 .example{
   width: 100%;
