@@ -213,5 +213,15 @@ pre{
 }
 /*end Course*/
 /*English*/
-
+.english{
+  display: flex;
+  flex-flow: column;
+}
+.text-english{
+  margin: 15px 0;
+  font-size: 1.1em;
+}
 /*end english*/
+/*footer*/
+
+/*end footer*/
