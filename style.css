@@ -107,3 +107,16 @@ ul li{
   background: url("image/social1.png") no-repeat 73% 5%;
   background-size: 700%;
 }
+.example{
+  width: 100%;
+}
+
+h2, h3{
+  text-align: center;
+}
+pre{
+  display: inline-block;
+  overflow: overlay;
+  height: 400px;
+  width: 100%;
+}
