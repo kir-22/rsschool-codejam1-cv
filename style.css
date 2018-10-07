@@ -160,3 +160,28 @@ pre{
   border: 2px solid #daa520;
 }
 /*end Example*/
+/*Practis*/
+.practis{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+}
+.practis-list{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  width: 80%;
+  list-style-type: decimal;
+  list-style-position: inside;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  word-spacing: 0.3em;
+}
+.practis-list li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #20da6c;
+}
+/*end Practis*/
