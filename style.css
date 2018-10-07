@@ -55,6 +55,7 @@ h2, h3{
 h2{
   margin-bottom: 20px;
   color: #daa520;
+  font-size: 3.5em;
 }
 .wrapper{
   display: flex;
@@ -114,8 +115,21 @@ h2{
   background-size: 700%;
 }
 /*Summary*/
-
+.summary{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.summary p{
+  width: 80%;
+  text-align: justify;
+  font-family: cursive;
+  font-size: xx-large;
+}
 /*end summary*/
+/*Skills*/
+
+/*end Skills*/
 .example{
   width: 100%;
 }
