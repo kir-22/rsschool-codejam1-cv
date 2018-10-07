@@ -144,12 +144,19 @@ h2{
   font-size: 1.5em;
 }
 /*end Skills*/
+/*Example*/
 .example{
   width: 100%;
+}
+.code-name{
+  margin-bottom: 15px;
+  color: #5aa520;
 }
 pre{
   display: inline-block;
   overflow: overlay;
   height: 400px;
   width: 100%;
+  border: 2px solid #daa520;
 }
+/*end Example*/
